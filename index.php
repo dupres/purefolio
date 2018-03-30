@@ -44,86 +44,86 @@
 				    			</td></tr>
 
 				    			<tr><td>
-				    				<h3>Web languages</h3>
+				    				<h3 style="border-left:3px solid grey;border-top:3px solid grey;border-radius:1.5vh;">Web languages</h3>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Php</h4>
-				    				<div class="b b8"/>
+				    				<div class="b b8 bb"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>HTML/CSS</h4>
-				    				<div class="b b6"/>
+				    				<div class="b b6 bb"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Javascript</h4>
-				    				<div class="b b7"/>
+				    				<div class="b b7 bb"/>
 				    			</td></tr>
 
 				    			<tr><td>
-				    			<h3>SQL languages</h3>
+				    			<h3 style="border-left:3px solid grey;border-top:3px solid grey;border-radius:1.5vh;">SQL languages</h3>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>MySQL</h4>
-				    				<div class="b b7"/>
+				    				<div class="b b7 bc"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>PostegreSQL</h4>
-				    				<div class="b b6"/>
+				    				<div class="b b6 bc"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>NoSQL</h4>
-				    				<div class="b b4"/>
+				    				<div class="b b4 bc"/>
 				    			</td></tr></table>
 				    			
 			    			</td>
 			    			<td>
 			    				<table>
 				    			<tr><td>
-				    				<h3>Hardcode languages</h3>
+				    				<h3 style="border-left:3px solid grey;border-top:3px solid grey;border-radius:1.5vh;">Hardcode languages</h3>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>C / C++</h4>
-				    				<div class="b b5"/>
+				    				<div class="b b5 br"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>C#</h4>
-				    				<div class="b b7"/>
+				    				<div class="b b7 br"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Java</h4>
-				    				<div class="b b6"/>
+				    				<div class="b b6 br"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Python</h4>
-				    				<div class="b b4"/>
+				    				<div class="b b4 br"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>VBA</h4>
-				    				<div class="b b7"/>
+				    				<div class="b b7 br"/>
 				    			</td></tr>
 				    			<tr><td>
 
-				    				<h3>Models and methods</h3>
+				    				<h3 style="border-left:3px solid grey;border-top:3px solid grey;border-radius:1.5vh;">Models and methods</h3>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>UML</h4>
-				    				<div class="b b6"/>
+				    				<div class="b b6 bg"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Merise</h4>
-				    				<div class="b b6"/>
+				    				<div class="b b6 bg"/>
 				    			</td></tr>
 				    			<tr><td>
 
-				    				<h3>Operating systems</h3>
+				    				<h3 style="border-left:3px solid grey;border-top:3px solid grey;border-radius:1.5vh;">Operating systems</h3>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Windows</h4>
-				    				<div class="b b9"/>
+				    				<div class="b b9 by"/>
 				    			</td></tr>
 				    			<tr><td class="tdbar">
 				    				<h4>Linux</h4>
-				    				<div class="b b4"/>
+				    				<div class="b b4 by"/>
 				    			</td></tr></table>
 
 			    	</td></tr></table>
@@ -291,7 +291,32 @@
 
 
     <style>
+
+    	.bb{
+    		background-color:rgb(0,0,0,0.7);
+			border:1px solid blue;
+    	}
     	
+    	.bc{
+    		background-color: cyan;
+    		border:1px solid darkcyan;
+    	}
+
+    	.bg{
+    		background-color: lightgreen;
+    		border:1px solid green;
+    	}
+
+    	.by{
+    		background-color: yellow;
+    		border:1px solid brown;
+    	}
+
+    	.br{
+    		background-color: salmon;
+    		border:1px solid red;
+    	}
+
     	button:focus {outline:0;}
     	.expbtn{
     		margin-top:0;
@@ -330,8 +355,7 @@
 			left:0px;
 			top:0px;
 			height:5px;
-			background-color:rgb(0,0,0,0.7);
-			border:1px solid blue;
+			
 		}
 
 		.tdbar{
